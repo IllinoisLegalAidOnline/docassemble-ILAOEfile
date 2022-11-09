@@ -43,10 +43,10 @@ def find_package_data(where='.', package='', exclude=standard_exclude, exclude_d
                 out.setdefault(package, []).append(prefix+name)
     return out
 
-setup(name='docassemble.ILAO',
+setup(name='docassemble.ILAOEfile',
       version='0.0.25',
       description=('A docassemble extension.'),
-      long_description='# docassemble.ILAO\r\n\r\nA docassemble extension.\r\n\r\n## Author\r\n\r\nMatt Newsted, mnewsted@illinoislegalaid.org\r\n\r\n',
+      long_description='# docassemble.ILAOEfile\r\n\r\nA docassemble extension.\r\n\r\n## Author\r\n\r\nMatt Newsted, mnewsted@illinoislegalaid.org\r\n\r\n',
       long_description_content_type='text/markdown',
       author='Matt Newsted',
       author_email='formsupport@illinoislegalaid.org',
@@ -56,6 +56,6 @@ setup(name='docassemble.ILAO',
       namespace_packages=['docassemble'],
       install_requires=[],
       zip_safe=False,
-      package_data=find_package_data(where='docassemble/ILAO/', package='docassemble.ILAO'),
+      package_data=find_package_data(where='docassemble/ILAOEfile/', package='docassemble.ILAOEfile'),
      )
 

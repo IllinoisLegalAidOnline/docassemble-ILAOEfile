@@ -26,4 +26,4 @@ def easy_forms_info(easy_forms):
         raise Exception("Reference to invalid Easy Form " + easy_forms)
     return easy_forms_info_by_name[easy_forms]
 
-read_data('docassemble.ILAO:data/sources/ilao_docassemble_easy_forms.xlsx')
+read_data('docassemble.ILAOEfile:data/sources/ilao_docassemble_easy_forms.xlsx')

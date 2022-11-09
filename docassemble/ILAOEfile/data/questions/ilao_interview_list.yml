@@ -30,18 +30,17 @@ include:
 features:
   css:
     - ilao_theme_2.css
-    - interview_list.css     
+    - interview_list.css
 ---
 code: |
   al_logo.alt_text = "ILAO Logo"
-
 ---
 default screen parts:
 
   logo: |
     <div class="title-container">
       <div class="al-logo">
-        <img src="/packagestatic/docassemble.ILAO/logo_white_30.svg" alt="${ al_logo.alt_text }"/>
+        <img src="/packagestatic/docassemble.ILAOEfile/logo_white_30.svg" alt="${ al_logo.alt_text }"/>
       </div>
       <div class="al-title">
         <div class="title-row-1">${ "In progress" }</div>
@@ -51,7 +50,7 @@ default screen parts:
   short logo: |
     <div class="title-container">
       <div class="al-logo">
-        <img src="/packagestatic/docassemble.ILAO/logo_white_30.svg" alt="${ al_logo.alt_text }"/>
+        <img src="/packagestatic/docassemble.ILAOEfile/logo_white_30.svg" alt="${ al_logo.alt_text }"/>
       </div>
       <div class="al-title">
         <div class="title-row-1">${ "In progress" }</div>
