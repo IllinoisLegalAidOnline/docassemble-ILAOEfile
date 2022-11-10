@@ -44,7 +44,7 @@ def find_package_data(where='.', package='', exclude=standard_exclude, exclude_d
     return out
 
 setup(name='docassemble.ILAOEfile',
-      version='0.0.25',
+      version='1.0.0rc1',
       description=('A docassemble extension.'),
       long_description='# docassemble.ILAOEfile\r\n\r\nA docassemble extension.\r\n\r\n## Author\r\n\r\nMatt Newsted, mnewsted@illinoislegalaid.org\r\n\r\n',
       long_description_content_type='text/markdown',
@@ -54,7 +54,7 @@ setup(name='docassemble.ILAOEfile',
       url='https://docassemble.org',
       packages=find_packages(),
       namespace_packages=['docassemble'],
-      install_requires=[],
+      install_requires=['docassemble.AssemblyLine', 'docassemble.ALToolbox', 'docassemble.EFSPIntegration'],
       zip_safe=False,
       package_data=find_package_data(where='docassemble/ILAOEfile/', package='docassemble.ILAOEfile'),
      )
