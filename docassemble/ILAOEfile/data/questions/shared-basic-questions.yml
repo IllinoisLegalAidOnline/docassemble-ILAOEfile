@@ -210,7 +210,8 @@ generic object: ALAddress
 template: x.postal_code_label
 content: |
   ZIP Code
----id: start a new session
+---
+id: start a new session
 question: |
   Do you want to start over?
 subquestion: |
@@ -274,6 +275,7 @@ question: |
 subquestion: |
   This program does not provide legal advice. It does not take the place of advice from a lawyer.
   Using this program does not create an attorney-client relationship between you and Illinois Legal Aid Online or its employees.
+
   ${ collapse_template(get_legal_help) }  
 fields:
   - To continue, you must accept the [**terms of use**](https://www.illinoislegalaid.org/about/terms-of-use) and [**privacy policy**](https://www.illinoislegalaid.org/about/privacy-policy).: accept
