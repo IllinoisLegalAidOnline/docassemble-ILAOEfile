@@ -10,6 +10,9 @@ metadata:
   comment: This program helps you tell the court and the other parties that you are participating in a court case.
 ---
 code: |
+  jurisdiction_id = 'illinois'
+---
+code: |
   interview_shorter_title = "Payment methods"
   ilao_easy_form_url = "https://www.illinoislegalaid.org/"
   ilao_easy_form_title = "Payment methods"
