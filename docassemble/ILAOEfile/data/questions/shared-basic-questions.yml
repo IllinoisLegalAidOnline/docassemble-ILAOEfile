@@ -274,6 +274,7 @@ question: |
   Terms of use
 subquestion: |
   This program does not provide legal advice. It does not take the place of advice from a lawyer.
+
   Using this program does not create an attorney-client relationship between you and Illinois Legal Aid Online or its employees.
 
   ${ collapse_template(get_legal_help) }  

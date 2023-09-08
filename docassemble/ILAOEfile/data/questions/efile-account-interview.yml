@@ -15,7 +15,6 @@ code: |
 metadata:
   title: eFileIL Account
   short title: efileIL
-  comment: This program helps you tell the court and the other parties that you are participating in a court case.
 ---
 default screen parts:
   logo: |
@@ -52,6 +51,9 @@ data: !!omap
 variable name: account_registration_choices
 data: !!omap
   - INDIVIDUAL: Self-represented user
+---
+code: |
+  jurisdiction_id = 'illinois'
 ---
 id: unauth-register-done
 question: |
