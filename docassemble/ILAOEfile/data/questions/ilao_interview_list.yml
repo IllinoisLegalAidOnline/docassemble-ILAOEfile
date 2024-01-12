@@ -33,7 +33,7 @@ features:
     - interview_list.css
 ---
 code: |
-  al_logo.alt_text = "Illinois Legal Aid Online logo"
+  al_logo.alt_text = ""
   # AL_ORGANIZATION_TITLE assigned here to overwrite CourtFormsOnline
   AL_ORGANIZATION_TITLE = "ILAO Easy Forms"
 ---
